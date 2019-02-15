@@ -1,0 +1,32 @@
+﻿<Window x:Class="MyPhoneBook.Windows.AddContactWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MyPhoneBook.Windows"
+        mc:Ignorable="d"
+        Title="AddContactWindow" Height="320" Width="300" WindowStyle="None" ResizeMode="NoResize">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition Height="65"></RowDefinition>
+        </Grid.RowDefinitions>
+        <StackPanel Grid.ColumnSpan="2">
+            <TextBlock FontSize="16" Margin="30 20 0 0 ">Номер телефона</TextBlock>
+            <TextBox Name="phoneNumber" FontSize="16" Margin="30 0 30 0"></TextBox>
+
+            <TextBlock FontSize="16" Margin="30 0 0 0 ">Имя абонента</TextBlock>
+            <TextBox Name="name"  FontSize="16" Margin="30 0 30 0"></TextBox>
+            <TextBlock FontSize="16" Margin="30 0 0 0 ">Описание</TextBlock>
+            <TextBox Name="description" TextWrapping="Wrap" Height="50"  FontSize="16" Margin="30 0 30 0"></TextBox>
+            <TextBlock  Name="info" TextWrapping="Wrap" Foreground="Red" Margin="30 0 30 0"></TextBlock>
+        </StackPanel>
+
+        <Button Click="Add_Click" IsDefault="True" Margin="30 20 20 20" FontSize="16" Name ="Add" Grid.Row="1" >Добавить</Button>
+        <Button Click="Cancel_Click" IsCancel="True" Margin="20 20 30 20" FontSize="16" Name ="Cancel" Grid.Row="1" Grid.Column="1" >Отмена</Button>
+    </Grid>
+</Window>

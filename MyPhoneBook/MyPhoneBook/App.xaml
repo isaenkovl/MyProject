@@ -1,0 +1,15 @@
+﻿<Application x:Class="MyPhoneBook.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:MyPhoneBook"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <Style x:Key="GVItemTBoxStyle" TargetType="TextBox">
+            <Setter Property="Margin" Value="-6,0,-6,0"></Setter>
+            <Setter Property="HorizontalAlignment" Value="Stretch"></Setter>
+            <Setter Property="Background" Value="White"></Setter>
+            <Setter Property="BorderBrush" Value="Black"></Setter>
+            <Setter Property="BorderThickness" Value="0,0,1,1"></Setter>
+        </Style>
+    </Application.Resources>
+</Application>

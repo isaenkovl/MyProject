@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<setting>
+  <time>
+    <hour>2</hour>
+    <minute>25</minute>
+    <fiscalregistrators>
+      <info>
+        <factory>MZ80041117</factory>
+        <fiscal>3000352767</fiscal>
+        <basepath>\\Comp1\Out\POS_Data.smb</basepath>
+      </info>
+    </fiscalregistrators>
+  </time>
+</setting>

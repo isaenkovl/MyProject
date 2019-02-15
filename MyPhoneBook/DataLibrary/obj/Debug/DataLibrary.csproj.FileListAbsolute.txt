@@ -1,0 +1,6 @@
+D:\CSharp\riverSoft\MyPhoneBook\DataLibrary\bin\Debug\DataLibrary.dll.config
+D:\CSharp\riverSoft\MyPhoneBook\DataLibrary\bin\Debug\DataLibrary.dll
+D:\CSharp\riverSoft\MyPhoneBook\DataLibrary\bin\Debug\DataLibrary.pdb
+D:\CSharp\riverSoft\MyPhoneBook\DataLibrary\obj\Debug\DataLibrary.csproj.CoreCompileInputs.cache
+D:\CSharp\riverSoft\MyPhoneBook\DataLibrary\obj\Debug\DataLibrary.dll
+D:\CSharp\riverSoft\MyPhoneBook\DataLibrary\obj\Debug\DataLibrary.pdb

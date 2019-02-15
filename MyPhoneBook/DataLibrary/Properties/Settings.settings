@@ -1,0 +1,12 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="DataLibrary.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="XmlFilePath" Type="System.String" Scope="User">
+      <Value Profile="(Default)">DataBaseContact.xml</Value>
+    </Setting>
+    <Setting Name="XmlUserFilePath" Type="System.String" Scope="User">
+      <Value Profile="(Default)">DataBaseUser.xml</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
